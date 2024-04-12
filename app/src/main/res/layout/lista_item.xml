@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_marginBottom="20dp">
+
+    <ImageView
+        android:id="@+id/imagen_pago"
+        android:layout_width= "80dp"
+        android:layout_height="80dp"
+        android:layout_margin="8dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titulo_pago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Título" />
+
+        <TextView
+            android:id="@+id/monto_pago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monto"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/desc_pago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esto es una descripción"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</LinearLayout>
